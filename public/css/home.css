@@ -1,0 +1,30 @@
+.carta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.carta img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.carta .contenido {
+  text-align: center;
+}
+
+.carta h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.carta p {
+  font-size: 16px;
+  margin: 0;
+}
