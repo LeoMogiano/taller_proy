@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ConsultaController;
+use App\Http\Controllers\HistoriaController;
 use App\Http\Controllers\medicoController;
 use App\Http\Controllers\pacienteController;
 use App\Http\Controllers\roleController;
@@ -30,3 +32,7 @@ Route::resource('roles', roleController::class)->names('roles');
 Route::resource('users', UserController::class)->names('users');
 Route::resource('medicos', medicoController::class)->names('medicos');
 Route::resource('pacientes', pacienteController::class)->names('pacientes');
+Route::resource('consultas', ConsultaController::class)->names('consultas');
+Route::get('consultas/diagnostico/{id}', [ConsultaController::class, 'diagnostico']);
+Route::post('consultas/diag_store/{id}', [ConsultaController::class, 'diag_store']);
+Route::resource('historias', HistoriaController::class)->names('historias');

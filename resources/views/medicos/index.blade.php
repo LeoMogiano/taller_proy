@@ -3,7 +3,7 @@
 @section('title', 'PROSALUD+')
 
 @section('content_header')
-    <h1>Lista Medicos</h1>
+    <h1>Lista Médicos</h1>
 @stop
 @section('css')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
@@ -28,7 +28,7 @@
                         <th>Nombre </th>
                         <th>Edad</th>
                         <th>Sexo</th>
-                        <th>Direccion</th>
+                        <th>Dirección</th>
                         <th>Telefono</th>
                         <th>Especialidad</th>
                         <th>Opciones</th>

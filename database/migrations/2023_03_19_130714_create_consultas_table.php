@@ -16,8 +16,10 @@ return new class extends Migration
             $table->unsignedBigInteger('paciente_id');
             $table->unsignedBigInteger('doctor_id');
             $table->date('fecha_consulta');
-            $table->text('diagnostico');
-            $table->text('tratamiento');
+            $table->time('hora');
+            $table->text('descripcion');
+            $table->text('diagnostico')->nullable();
+            $table->text('tratamiento')->nullable();
             $table->foreign('paciente_id')->on('pacientes')->references('id')->onDelete('cascade');
             $table->foreign('doctor_id')->on('medicos')->references('id')->onDelete('cascade');
             $table->timestamps();

@@ -283,6 +283,18 @@ return [
             'icon' => 'fas fa-hospital-user',
             'can' => 'Gestionar Pacientes'
         ],
+        [
+            'text' => 'Citas Medicas',
+            'route'  => 'consultas.index',
+            'icon' => 'fas fa-hand-holding-medical',
+        
+        ],
+        [
+            'text' => 'Historias Clinicas',
+            'route'  => 'historias.index',
+            'icon' => 'fas fa-file-medical-alt',
+        
+        ],
         /* [
             'text' => 'profile',
             'url'  => 'admin/settings',
