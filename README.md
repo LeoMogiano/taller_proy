@@ -1,17 +1,31 @@
 ## Instalacion del proyecto
+
 -Ejecutar Xammp
+
 -Crear base de datos en phpadmin, o posgretsql
+
 -Abrir cmd desde donde se guardara el proyecto (htdocs)
+
 -git clone https://github.com/LeoMogiano/taller_proy/tree/master
+
 -composer update
+
 -composer install
+
 -npm install
+
 -npm run dev
+
 -duplicar el archivo .env example
+
 -cambiar nombre a .env
+
 -php artisan key:generate
+
 -php artisan migrate
+
 -php artisan migrate:fresh --seed
+
 -php artisan serve
 
 
